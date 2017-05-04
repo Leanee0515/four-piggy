@@ -62,10 +62,12 @@ main {
 }
 
 p1 {
+    width: 100%;
     position: absolute;
     z-index: 0;
-    padding: 300px 530px;
+    padding: 300px;
     letter-spacing: 5px;
+    text-align: center;
 }
 
 .luluan,
@@ -164,21 +166,22 @@ footer {
     width: 100%;
     height: 100%;
     background-color: #e6e6e6;
+    padding: 50px;
     clear: both;
 }
 
 p.you {
     text-align: center;
-    margin: auto 100px;
 }
 
-.fa fa-phone fa-2x {
-    width: 200px;
+p.fa fa-phone fa-2x {
+    width: 100px;
 }
 
 p.copyright {
     text-align: center;
     font-size: 15px;
+    margin: 0 0;
 }
 
 .btn1,
