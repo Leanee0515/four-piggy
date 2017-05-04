@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo');
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexming.css);
+body,
+html {
+    padding: 0;
+    margin: 0;
+    background-color: #f38654;
+}
+
+html {
+    width: 100%;
+    position: relative;
+}
+
+html:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 600px;
+    background-color: #f5de50;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.intro {
+    position: relative;
+    width: 90%;
+    overflow: auto;
+    padding: 0px;
+    margin: 100px auto;
+    z-index: 2;
+    perspective: 1000px;
+}
+
+header {
+    height: 500px;
+    font-size: 50px;
+    font-weight: 100px;
+    color: #f5df2e;
+    background-image: url(../IMG/18217093_120300003468679368_1551686787_n.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: right;
+    padding-right: 175px;
+    border-bottom: 1px solid;
+}
+
+h1.name {
+    margin: 0;
+    font-family: 'Baloo', cursive;
+}
+
+main {
+    width: 100%;
+    overflow: auto;
+    transform: rotateX(-110deg);
+    transform-origin: top;
+    background-color: #f8dfc2;
+}
+
+p1 {
+    position: absolute;
+    z-index: 0;
+    padding: 300px 530px;
+    letter-spacing: 5px;
+}
+
+.luluan,
+.door,
+.binana,
+.Ying {
+    width: 40%;
+    height: 400px;
+    margin: 5%;
+    overflow-y: scroll;
+    border-radius: 10px;
+}
+
+p {
+    padding: 15px;
+    font-family: cwTeXMing, serif;
+    font-size: 1.5em;
+}
+
+.Ying>p {
+    padding: 300px 65px;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+    width: 75%;
+    height: 300px;
+    margin: 0px auto;
+}
+
+.box1 {
+    background-image: url(../IMG/lulu.jpg);
+    background-size: cover;
+}
+
+.box2 {
+    background-image: url(../IMG/door.jpg);
+    background-size: cover;
+}
+
+.box3 {
+    background-image: url(../IMG/binana.jpg);
+    background-size: cover;
+}
+
+.box4 {
+    background-image: url(../IMG/ying2.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.luluan {
+    background-color: #ff4c4c;
+    float: left;
+}
+
+.door {
+    background-color: #4ba6f5;
+    float: right;
+}
+
+.binana {
+    background-color: #ffd900;
+    float: left;
+}
+
+.Ying {
+    background-color: #33cc99;
+    float: right;
+}
+
+i.fa-star {
+    color: #f5ff00;
+}
+
+i.fa-heart {
+    color: #fc0f0f;
+}
+
+i.fa-gift {
+    color: #19a339;
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600px;
+    font-family: cwTeXYen, sans-serif;
+    margin: 5px;
+}
+
+footer {
+    border-top: 1px solid;
+    width: 100%;
+    height: 100%;
+    background-color: #e6e6e6;
+    clear: both;
+}
+
+p.you {
+    text-align: center;
+    margin: auto 100px;
+}
+
+.fa fa-phone fa-2x {
+    width: 200px;
+}
+
+p.copyright {
+    text-align: center;
+    font-size: 15px;
+}
+
+.btn1,
+.btn2,
+.btn3,
+.btn4 {
+    display: block;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 50px;
+    text-decoration: none;
+    padding: 20px auto;
+    margin: 20px auto;
+}
+
+.btn1 {
+    background-color: #f69653;
+}
+
+.btn1:hover {
+    background-color: #dbc5b0;
+}
+
+.btn2 {
+    background-color: #002561;
+    color: white;
+}
+
+.btn2:hover {
+    background-color: #0732a2;
+}
+
+.btn3 {
+    background-color: #f67019;
+    color: black;
+}
+
+.btn3:hover {
+    background-color: #ff9500;
+}
+
+.btn4 {
+    background-color: #41811e;
+    color: white;
+}
+
+.btn4:hover {
+    background-color: #99cc33;
+}
+
+
+/*note animation*/
+
+main {
+    transition: all .5s ease;
+}
+
+.intro:hover main {
+    transform: rotateX(0deg);
+}
+
+.intro:hover {
+    box-shadow: 20px 20px 20px -10px gray;
+    transition: all 2s ease;
+}
