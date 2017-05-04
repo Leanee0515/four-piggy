@@ -32,7 +32,6 @@ html:after {
     margin: 100px auto;
     z-index: 2;
     perspective: 1000px;
-    box-shadow: 20px 20px 20px -10px gray;
 }
 
 header {
@@ -163,20 +162,23 @@ h2 {
 footer {
     border-top: 1px solid;
     width: 100%;
-    padding-right: 50px;
-    padding-left: 50px;
+    height: 100%;
     background-color: #e6e6e6;
     clear: both;
-    padding-bottom: 0;
-}
-
-footer * {
-    color: ;
 }
 
 p.you {
     text-align: center;
     margin: auto 100px;
+}
+
+.fa fa-phone fa-2x {
+    width: 200px;
+}
+
+p.copyright {
+    text-align: center;
+    font-size: 15px;
 }
 
 .btn1,
@@ -202,8 +204,6 @@ p.you {
 .btn1:hover {
     background-color: #dbc5b0;
 }
-
-.btn1:active {}
 
 .btn2 {
     background-color: #002561;
@@ -241,4 +241,9 @@ main {
 
 .intro:hover main {
     transform: rotateX(0deg);
+}
+
+.intro:hover {
+    box-shadow: 20px 20px 20px -10px gray;
+    transition: all 2s ease;
 }
